@@ -1,5 +1,11 @@
 IMI Guard v2.1 ("Evidence & Confidence" release)
 
+SHA-256:
+200B50BA5C9FF9A9E77ACED6954E2F230AA4EEA8A940249CB3FB95B5EDC406FC
+
+Verify your download in PowerShell:
+Get-FileHash .\IMIGuard.exe -Algorithm SHA256
+
 Portable, read-only Windows endpoint security audit tool. Single self-contained executable,
 no installer and no internet connection required. Runs as a graphical app or fully headless
 for fleet deployment.
