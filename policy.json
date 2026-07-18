@@ -1,0 +1,37 @@
+{
+  "_readme": "IMI Guard organization policy pack. This file is what makes 'unauthorized' mean something. With Enabled=false the tool still REPORTS hotspot/USB/tethering activity, but only as neutral observations, because it cannot know what your site permits. Set Enabled=true and fill in the rules below to have that same evidence classified as a POLICY VIOLATION. Fill this in BEFORE going to site.",
+
+  "Enabled": true,
+
+  "_networks": "Set InternetAllowed=false for an air-gapped/restricted PC. Set MobileHotspotAllowed=false where staff must not tether their phones. ApprovedNetworks is the list of SSIDs/network names staff are allowed to join - leave it empty to skip that check.",
+  "InternetAllowed": true,
+  "MobileHotspotAllowed": true,
+  "UsbTetheringAllowed": true,
+  "ApprovedNetworks": [],
+
+  "_usb": "Set UsbStorageAllowed=false where removable media is banned outright. Otherwise list the approved devices by serial number (shown in the report for every USB device seen).",
+  "UsbStorageAllowed": true,
+  "ApprovedUsbDevices": [
+    {
+      "Serial": "4C530001230704112",
+      "Owner": "IT Department",
+      "Purpose": "Approved software deployment key",
+      "Expires": "2027-01-01"
+    }
+  ],
+
+  "_software": "Names matched case-insensitively against installed software.",
+  "ProhibitedSoftware": [],
+  "RemoteAccessAllowed": true,
+
+  "_cloud": "Data-movement policy. Set PersonalCloudStorageAllowed=false where staff must not sign personal cloud accounts (OneDrive Personal, Dropbox, Google Drive, MEGA...) into a work PC - a signed-in personal cloud client then becomes a POLICY VIOLATION. ApprovedCloudAccounts is the corporate accounts/domains that are fine: use a full address ('jane@corp.com') or a domain ('@corp.com'). Leave empty to treat every cloud account found as a review item.",
+  "PersonalCloudStorageAllowed": true,
+  "ApprovedCloudAccounts": [],
+
+  "_hours": "Sign-ins outside these hours are reported for AUTHORIZATION REVIEW - never as an accusation. Leave Days empty to disable the check entirely.",
+  "WorkingHours": {
+    "Days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    "Start": "08:00",
+    "End": "18:00"
+  }
+}

@@ -1,0 +1,1 @@
+{"Enabled":true,"Ids":[],"TitleContains":[],"EvidenceContains":[],"Entries":[{"Enabled":false,"Id":"WG-REMOTE-001","Category":"Remote Access","TitleContains":"","EvidenceContains":"Tailscale","Reason":"Example (disabled): set Enabled=true to approve a known remote-access tool"}]}

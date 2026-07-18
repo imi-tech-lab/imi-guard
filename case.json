@@ -1,0 +1,17 @@
+{
+  "_readme": "IMI Guard case record (chain of custody). Fill this in BEFORE running the audit. These values are printed on the report cover and written into evidence_manifest.json alongside the SHA-256 of every output file. An unauthorized-use report can end up in an HR or disciplinary process, where the first question is 'who produced this, when, and under whose authority?' - this file is the answer.",
+
+  "CaseId": "",
+  "Organization": "",
+  "Site": "",
+  "AuditorName": "",
+  "AuditReason": "",
+
+  "_optional": "Everything below is optional but strengthens the record if the findings are ever disputed.",
+  "Department": "",
+  "AssetOwner": "",
+  "TicketReference": "",
+  "ApprovingAuthority": "",
+  "WitnessName": "",
+  "Notes": ""
+}
