@@ -1,0 +1,36 @@
+IMI GUARD — BETA EVALUATION LICENSE
+Copyright (c) 2026 IMI Tech Lab. All rights reserved.
+
+This software is proprietary. It is NOT open source.
+
+1. GRANT. You are granted a free, non-exclusive, non-transferable
+   licence to download and run this beta version of IMI Guard solely
+   for evaluation and testing purposes, on systems you own or are
+   authorized to audit.
+
+2. RESTRICTIONS. You may not: (a) redistribute, sell, rent, or
+   sublicense the software; (b) reverse engineer, decompile, or
+   disassemble it; (c) use it in production environments or in any
+   legal, disciplinary, or forensic proceeding; (d) use it on any
+   system without proper authorization.
+
+3. AUTHORIZED USE ONLY. This tool reads endpoint configuration and
+   activity records. You are solely responsible for ensuring you have
+   authority to audit any machine you run it on. Unauthorized use may
+   violate applicable law.
+
+4. BETA STATUS. This is pre-release software provided for testing.
+   It may contain defects, and its findings may be incomplete or
+   incorrect. Do not rely on its output for any decision.
+
+5. FEEDBACK. Feedback, bug reports, and suggestions you submit may be
+   used by IMI Tech Lab without obligation or compensation.
+
+6. NO WARRANTY. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF
+   ANY KIND, EXPRESS OR IMPLIED. IN NO EVENT SHALL IMI TECH LAB BE
+   LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM THE
+   USE OF THE SOFTWARE.
+
+7. TERMINATION. This licence ends automatically if you breach it, and
+   may be withdrawn when the beta period ends or a general release is
+   published.
