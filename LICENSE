@@ -1,4 +1,11 @@
 IMI GUARD — BETA EVALUATION LICENSE
+
+SHA-256:
+200B50BA5C9FF9A9E77ACED6954E2F230AA4EEA8A940249CB3FB95B5EDC406FC
+
+Verify your download in PowerShell:
+Get-FileHash .\IMIGuard.exe -Algorithm SHA256
+
 Copyright (c) 2026 IMI Tech Lab. All rights reserved.
 
 This software is proprietary. It is NOT open source.
