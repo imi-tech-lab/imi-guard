@@ -1,1 +1,1 @@
-
+Enterprise-grade Windows endpoint security audit and digital forensics platform for offline security assessments, incident response, compliance verification, and unauthorized system activity detection. Generates professional HTML, PDF, JSON, and CSV reports while preserving forensic integrity.
